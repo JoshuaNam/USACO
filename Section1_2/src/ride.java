@@ -16,6 +16,7 @@ public class ride {
 			in = new BufferedReader(new FileReader("ride.in"));
 			out = new PrintWriter(new File("ride.out"));
 			init();
+			//for next problem use print bc in the solve process - there's already a space
 			out.println(solve());
 			in.close();
 			out.close();
